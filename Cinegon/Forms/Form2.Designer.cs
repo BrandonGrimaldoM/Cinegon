@@ -52,8 +52,10 @@ namespace Cinegon
             this.button6 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label8 = new System.Windows.Forms.Label();
+            this.ShowImage = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.TablaDeDatos)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ShowImage)).BeginInit();
             this.SuspendLayout();
             // 
             // TablaDeDatos
@@ -112,7 +114,7 @@ namespace Cinegon
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(338, 100);
+            this.label4.Location = new System.Drawing.Point(285, 100);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(44, 13);
             this.label4.TabIndex = 4;
@@ -124,7 +126,7 @@ namespace Cinegon
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(176, 100);
+            this.label5.Location = new System.Drawing.Point(167, 100);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(58, 13);
             this.label5.TabIndex = 5;
@@ -151,6 +153,7 @@ namespace Cinegon
             // 
             // cbxGenero
             // 
+            this.cbxGenero.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbxGenero.FormattingEnabled = true;
             this.cbxGenero.Location = new System.Drawing.Point(85, 63);
             this.cbxGenero.Name = "cbxGenero";
@@ -159,6 +162,7 @@ namespace Cinegon
             // 
             // cbxHorario
             // 
+            this.cbxHorario.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbxHorario.FormattingEnabled = true;
             this.cbxHorario.Location = new System.Drawing.Point(85, 97);
             this.cbxHorario.Name = "cbxHorario";
@@ -167,23 +171,25 @@ namespace Cinegon
             // 
             // cbxIdioma
             // 
+            this.cbxIdioma.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbxIdioma.FormattingEnabled = true;
-            this.cbxIdioma.Location = new System.Drawing.Point(391, 96);
+            this.cbxIdioma.Location = new System.Drawing.Point(327, 96);
             this.cbxIdioma.Name = "cbxIdioma";
-            this.cbxIdioma.Size = new System.Drawing.Size(90, 21);
+            this.cbxIdioma.Size = new System.Drawing.Size(154, 21);
             this.cbxIdioma.TabIndex = 11;
             // 
             // txtDuracion
             // 
-            this.txtDuracion.Location = new System.Drawing.Point(241, 97);
+            this.txtDuracion.Location = new System.Drawing.Point(231, 97);
             this.txtDuracion.Name = "txtDuracion";
-            this.txtDuracion.Size = new System.Drawing.Size(82, 20);
+            this.txtDuracion.Size = new System.Drawing.Size(48, 20);
             this.txtDuracion.TabIndex = 12;
             // 
             // txtImagen
             // 
             this.txtImagen.Location = new System.Drawing.Point(535, 96);
             this.txtImagen.Name = "txtImagen";
+            this.txtImagen.ReadOnly = true;
             this.txtImagen.Size = new System.Drawing.Size(100, 20);
             this.txtImagen.TabIndex = 13;
             // 
@@ -195,6 +201,7 @@ namespace Cinegon
             this.button1.TabIndex = 14;
             this.button1.Text = "Agregar";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -204,6 +211,7 @@ namespace Cinegon
             this.button2.TabIndex = 15;
             this.button2.Text = "Editar";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -223,6 +231,7 @@ namespace Cinegon
             this.button4.TabIndex = 17;
             this.button4.Text = "Subir imagen";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
@@ -247,6 +256,7 @@ namespace Cinegon
             // 
             // cbxPanel
             // 
+            this.cbxPanel.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbxPanel.FormattingEnabled = true;
             this.cbxPanel.Location = new System.Drawing.Point(641, 326);
             this.cbxPanel.Name = "cbxPanel";
@@ -286,12 +296,23 @@ namespace Cinegon
             this.label8.TabIndex = 23;
             this.label8.Text = "CineGon";
             // 
+            // ShowImage
+            // 
+            this.ShowImage.Image = global::Cinegon.Properties.Resources.fondocine;
+            this.ShowImage.Location = new System.Drawing.Point(749, 12);
+            this.ShowImage.Name = "ShowImage";
+            this.ShowImage.Size = new System.Drawing.Size(268, 393);
+            this.ShowImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.ShowImage.TabIndex = 24;
+            this.ShowImage.TabStop = false;
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Cinegon.Properties.Resources.fondocine;
-            this.ClientSize = new System.Drawing.Size(767, 432);
+            this.ClientSize = new System.Drawing.Size(1061, 432);
+            this.Controls.Add(this.ShowImage);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button6);
@@ -315,11 +336,16 @@ namespace Cinegon
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.TablaDeDatos);
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(1077, 471);
+            this.MinimumSize = new System.Drawing.Size(1077, 471);
             this.Name = "Form2";
             this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.Form2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.TablaDeDatos)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ShowImage)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -350,5 +376,6 @@ namespace Cinegon
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.PictureBox ShowImage;
     }
 }
