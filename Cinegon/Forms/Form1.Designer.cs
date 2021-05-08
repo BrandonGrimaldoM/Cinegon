@@ -29,404 +29,377 @@ namespace Cinegon
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.panelBox1 = new System.Windows.Forms.PictureBox();
+            this.panelBox2 = new System.Windows.Forms.PictureBox();
+            this.panelBox3 = new System.Windows.Forms.PictureBox();
+            this.txtPelicula = new System.Windows.Forms.Label();
+            this.txtPelicula2 = new System.Windows.Forms.Label();
+            this.txtPelicula3 = new System.Windows.Forms.Label();
+            this.txtCampoIdioma = new System.Windows.Forms.Label();
+            this.txtCampoIdioma2 = new System.Windows.Forms.Label();
+            this.txtCampoIdioma3 = new System.Windows.Forms.Label();
+            this.txtIdioma = new System.Windows.Forms.Label();
+            this.txtIdioma2 = new System.Windows.Forms.Label();
+            this.txtIdioma3 = new System.Windows.Forms.Label();
+            this.txtCampoHorario = new System.Windows.Forms.Label();
+            this.txtCampoDuracion = new System.Windows.Forms.Label();
+            this.txtCampoGenero = new System.Windows.Forms.Label();
+            this.txtCampoGenero2 = new System.Windows.Forms.Label();
+            this.txtCampoHorario2 = new System.Windows.Forms.Label();
+            this.txtCampoGenero3 = new System.Windows.Forms.Label();
+            this.txtCampoHorario3 = new System.Windows.Forms.Label();
+            this.txtCampoDuracion2 = new System.Windows.Forms.Label();
+            this.txtCampoDuracion3 = new System.Windows.Forms.Label();
+            this.txtDuracion = new System.Windows.Forms.Label();
+            this.txtHorario = new System.Windows.Forms.Label();
+            this.txtGenero = new System.Windows.Forms.Label();
+            this.txtDuracion2 = new System.Windows.Forms.Label();
+            this.txtHorario2 = new System.Windows.Forms.Label();
+            this.txtGenero2 = new System.Windows.Forms.Label();
+            this.txtHorario3 = new System.Windows.Forms.Label();
+            this.txtGenero3 = new System.Windows.Forms.Label();
+            this.txtDuracion3 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.panelBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.panelBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.panelBox3)).BeginInit();
             this.SuspendLayout();
             // 
-            // pictureBox1
+            // panelBox1
             // 
-            this.pictureBox1.Image = global::Cinegon.Properties.Resources.kimetsu_no_yaiba_1;
-            this.pictureBox1.Location = new System.Drawing.Point(94, 97);
-            this.pictureBox1.MaximumSize = new System.Drawing.Size(517, 736);
-            this.pictureBox1.MinimumSize = new System.Drawing.Size(517, 736);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(517, 736);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.panelBox1.BackColor = System.Drawing.Color.Transparent;
+            this.panelBox1.Location = new System.Drawing.Point(94, 97);
+            this.panelBox1.MaximumSize = new System.Drawing.Size(517, 736);
+            this.panelBox1.MinimumSize = new System.Drawing.Size(517, 736);
+            this.panelBox1.Name = "panelBox1";
+            this.panelBox1.Size = new System.Drawing.Size(517, 736);
+            this.panelBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.panelBox1.TabIndex = 0;
+            this.panelBox1.TabStop = false;
             // 
-            // pictureBox2
+            // panelBox2
             // 
-            this.pictureBox2.BackgroundImage = global::Cinegon.Properties.Resources._5262664;
-            this.pictureBox2.Image = global::Cinegon.Properties.Resources._5262664;
-            this.pictureBox2.Location = new System.Drawing.Point(698, 97);
-            this.pictureBox2.MaximumSize = new System.Drawing.Size(517, 736);
-            this.pictureBox2.MinimumSize = new System.Drawing.Size(517, 736);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(517, 736);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
+            this.panelBox2.BackColor = System.Drawing.Color.Transparent;
+            this.panelBox2.Location = new System.Drawing.Point(698, 97);
+            this.panelBox2.MaximumSize = new System.Drawing.Size(517, 736);
+            this.panelBox2.MinimumSize = new System.Drawing.Size(517, 736);
+            this.panelBox2.Name = "panelBox2";
+            this.panelBox2.Size = new System.Drawing.Size(517, 736);
+            this.panelBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.panelBox2.TabIndex = 1;
+            this.panelBox2.TabStop = false;
             // 
-            // pictureBox3
+            // panelBox3
             // 
-            this.pictureBox3.Image = global::Cinegon.Properties.Resources._5393301;
-            this.pictureBox3.Location = new System.Drawing.Point(1295, 97);
-            this.pictureBox3.MaximumSize = new System.Drawing.Size(517, 736);
-            this.pictureBox3.MinimumSize = new System.Drawing.Size(517, 736);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(517, 736);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 1;
-            this.pictureBox3.TabStop = false;
+            this.panelBox3.BackColor = System.Drawing.Color.Transparent;
+            this.panelBox3.Location = new System.Drawing.Point(1295, 97);
+            this.panelBox3.MaximumSize = new System.Drawing.Size(517, 736);
+            this.panelBox3.MinimumSize = new System.Drawing.Size(517, 736);
+            this.panelBox3.Name = "panelBox3";
+            this.panelBox3.Size = new System.Drawing.Size(517, 736);
+            this.panelBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.panelBox3.TabIndex = 1;
+            this.panelBox3.TabStop = false;
             // 
-            // label1
+            // txtPelicula
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.Control;
-            this.label1.Location = new System.Drawing.Point(88, 51);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(411, 31);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Demon Slayer: Kimetsu no Yaiba";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.txtPelicula.AutoSize = true;
+            this.txtPelicula.BackColor = System.Drawing.Color.Transparent;
+            this.txtPelicula.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPelicula.ForeColor = System.Drawing.SystemColors.Control;
+            this.txtPelicula.Location = new System.Drawing.Point(88, 51);
+            this.txtPelicula.Name = "txtPelicula";
+            this.txtPelicula.Size = new System.Drawing.Size(0, 31);
+            this.txtPelicula.TabIndex = 2;
+            this.txtPelicula.Click += new System.EventHandler(this.label1_Click);
             // 
-            // label2
+            // txtPelicula2
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.Control;
-            this.label2.Location = new System.Drawing.Point(692, 51);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(255, 31);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Ajustes De Cuentas";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
+            this.txtPelicula2.AutoSize = true;
+            this.txtPelicula2.BackColor = System.Drawing.Color.Transparent;
+            this.txtPelicula2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPelicula2.ForeColor = System.Drawing.SystemColors.Control;
+            this.txtPelicula2.Location = new System.Drawing.Point(692, 51);
+            this.txtPelicula2.Name = "txtPelicula2";
+            this.txtPelicula2.Size = new System.Drawing.Size(0, 31);
+            this.txtPelicula2.TabIndex = 3;
+            this.txtPelicula2.Click += new System.EventHandler(this.label2_Click);
             // 
-            // label3
+            // txtPelicula3
             // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.SystemColors.Control;
-            this.label3.Location = new System.Drawing.Point(1289, 51);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(100, 31);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "Cruella";
-            this.label3.Click += new System.EventHandler(this.label2_Click);
+            this.txtPelicula3.AutoSize = true;
+            this.txtPelicula3.BackColor = System.Drawing.Color.Transparent;
+            this.txtPelicula3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPelicula3.ForeColor = System.Drawing.SystemColors.Control;
+            this.txtPelicula3.Location = new System.Drawing.Point(1289, 51);
+            this.txtPelicula3.Name = "txtPelicula3";
+            this.txtPelicula3.Size = new System.Drawing.Size(0, 31);
+            this.txtPelicula3.TabIndex = 3;
+            this.txtPelicula3.Click += new System.EventHandler(this.label2_Click);
             // 
-            // label4
+            // txtCampoIdioma
             // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.SystemColors.Control;
-            this.label4.Location = new System.Drawing.Point(88, 851);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(103, 31);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "Idioma:";
+            this.txtCampoIdioma.AutoSize = true;
+            this.txtCampoIdioma.BackColor = System.Drawing.Color.Transparent;
+            this.txtCampoIdioma.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCampoIdioma.ForeColor = System.Drawing.SystemColors.Control;
+            this.txtCampoIdioma.Location = new System.Drawing.Point(88, 851);
+            this.txtCampoIdioma.Name = "txtCampoIdioma";
+            this.txtCampoIdioma.Size = new System.Drawing.Size(0, 31);
+            this.txtCampoIdioma.TabIndex = 4;
             // 
-            // label5
+            // txtCampoIdioma2
             // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.SystemColors.Control;
-            this.label5.Location = new System.Drawing.Point(692, 851);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(103, 31);
-            this.label5.TabIndex = 5;
-            this.label5.Text = "Idioma:";
+            this.txtCampoIdioma2.AutoSize = true;
+            this.txtCampoIdioma2.BackColor = System.Drawing.Color.Transparent;
+            this.txtCampoIdioma2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCampoIdioma2.ForeColor = System.Drawing.SystemColors.Control;
+            this.txtCampoIdioma2.Location = new System.Drawing.Point(692, 851);
+            this.txtCampoIdioma2.Name = "txtCampoIdioma2";
+            this.txtCampoIdioma2.Size = new System.Drawing.Size(0, 31);
+            this.txtCampoIdioma2.TabIndex = 5;
             // 
-            // label6
+            // txtCampoIdioma3
             // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.Transparent;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.SystemColors.Control;
-            this.label6.Location = new System.Drawing.Point(1289, 851);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(103, 31);
-            this.label6.TabIndex = 6;
-            this.label6.Text = "Idioma:";
+            this.txtCampoIdioma3.AutoSize = true;
+            this.txtCampoIdioma3.BackColor = System.Drawing.Color.Transparent;
+            this.txtCampoIdioma3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCampoIdioma3.ForeColor = System.Drawing.SystemColors.Control;
+            this.txtCampoIdioma3.Location = new System.Drawing.Point(1289, 851);
+            this.txtCampoIdioma3.Name = "txtCampoIdioma3";
+            this.txtCampoIdioma3.Size = new System.Drawing.Size(0, 31);
+            this.txtCampoIdioma3.TabIndex = 6;
             // 
-            // label7
+            // txtIdioma
             // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.SystemColors.Control;
-            this.label7.Location = new System.Drawing.Point(180, 851);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(93, 31);
-            this.label7.TabIndex = 7;
-            this.label7.Text = "idioma";
+            this.txtIdioma.AutoSize = true;
+            this.txtIdioma.BackColor = System.Drawing.Color.Transparent;
+            this.txtIdioma.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtIdioma.ForeColor = System.Drawing.SystemColors.Control;
+            this.txtIdioma.Location = new System.Drawing.Point(180, 851);
+            this.txtIdioma.Name = "txtIdioma";
+            this.txtIdioma.Size = new System.Drawing.Size(0, 31);
+            this.txtIdioma.TabIndex = 7;
             // 
-            // label8
+            // txtIdioma2
             // 
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.Transparent;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.SystemColors.Control;
-            this.label8.Location = new System.Drawing.Point(784, 851);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(93, 31);
-            this.label8.TabIndex = 8;
-            this.label8.Text = "idioma";
+            this.txtIdioma2.AutoSize = true;
+            this.txtIdioma2.BackColor = System.Drawing.Color.Transparent;
+            this.txtIdioma2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtIdioma2.ForeColor = System.Drawing.SystemColors.Control;
+            this.txtIdioma2.Location = new System.Drawing.Point(784, 851);
+            this.txtIdioma2.Name = "txtIdioma2";
+            this.txtIdioma2.Size = new System.Drawing.Size(0, 31);
+            this.txtIdioma2.TabIndex = 8;
             // 
-            // label9
+            // txtIdioma3
             // 
-            this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.Transparent;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.SystemColors.Control;
-            this.label9.Location = new System.Drawing.Point(1380, 851);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(93, 31);
-            this.label9.TabIndex = 9;
-            this.label9.Text = "idioma";
+            this.txtIdioma3.AutoSize = true;
+            this.txtIdioma3.BackColor = System.Drawing.Color.Transparent;
+            this.txtIdioma3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtIdioma3.ForeColor = System.Drawing.SystemColors.Control;
+            this.txtIdioma3.Location = new System.Drawing.Point(1380, 851);
+            this.txtIdioma3.Name = "txtIdioma3";
+            this.txtIdioma3.Size = new System.Drawing.Size(0, 31);
+            this.txtIdioma3.TabIndex = 9;
             // 
-            // label10
+            // txtCampoHorario
             // 
-            this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.Color.Transparent;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.SystemColors.Control;
-            this.label10.Location = new System.Drawing.Point(88, 895);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(111, 31);
-            this.label10.TabIndex = 10;
-            this.label10.Text = "Horario:";
+            this.txtCampoHorario.AutoSize = true;
+            this.txtCampoHorario.BackColor = System.Drawing.Color.Transparent;
+            this.txtCampoHorario.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCampoHorario.ForeColor = System.Drawing.SystemColors.Control;
+            this.txtCampoHorario.Location = new System.Drawing.Point(88, 895);
+            this.txtCampoHorario.Name = "txtCampoHorario";
+            this.txtCampoHorario.Size = new System.Drawing.Size(0, 31);
+            this.txtCampoHorario.TabIndex = 10;
             // 
-            // label11
+            // txtCampoDuracion
             // 
-            this.label11.AutoSize = true;
-            this.label11.BackColor = System.Drawing.Color.Transparent;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.SystemColors.Control;
-            this.label11.Location = new System.Drawing.Point(352, 851);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(131, 31);
-            this.label11.TabIndex = 11;
-            this.label11.Text = "Duración:";
+            this.txtCampoDuracion.AutoSize = true;
+            this.txtCampoDuracion.BackColor = System.Drawing.Color.Transparent;
+            this.txtCampoDuracion.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCampoDuracion.ForeColor = System.Drawing.SystemColors.Control;
+            this.txtCampoDuracion.Location = new System.Drawing.Point(378, 937);
+            this.txtCampoDuracion.Name = "txtCampoDuracion";
+            this.txtCampoDuracion.Size = new System.Drawing.Size(0, 31);
+            this.txtCampoDuracion.TabIndex = 11;
             // 
-            // label12
+            // txtCampoGenero
             // 
-            this.label12.AutoSize = true;
-            this.label12.BackColor = System.Drawing.Color.Transparent;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.ForeColor = System.Drawing.SystemColors.Control;
-            this.label12.Location = new System.Drawing.Point(88, 937);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(112, 31);
-            this.label12.TabIndex = 12;
-            this.label12.Text = "Genero:";
+            this.txtCampoGenero.AutoSize = true;
+            this.txtCampoGenero.BackColor = System.Drawing.Color.Transparent;
+            this.txtCampoGenero.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCampoGenero.ForeColor = System.Drawing.SystemColors.Control;
+            this.txtCampoGenero.Location = new System.Drawing.Point(88, 937);
+            this.txtCampoGenero.Name = "txtCampoGenero";
+            this.txtCampoGenero.Size = new System.Drawing.Size(0, 31);
+            this.txtCampoGenero.TabIndex = 12;
             // 
-            // label13
+            // txtCampoGenero2
             // 
-            this.label13.AutoSize = true;
-            this.label13.BackColor = System.Drawing.Color.Transparent;
-            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.ForeColor = System.Drawing.SystemColors.Control;
-            this.label13.Location = new System.Drawing.Point(692, 937);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(112, 31);
-            this.label13.TabIndex = 14;
-            this.label13.Text = "Genero:";
+            this.txtCampoGenero2.AutoSize = true;
+            this.txtCampoGenero2.BackColor = System.Drawing.Color.Transparent;
+            this.txtCampoGenero2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCampoGenero2.ForeColor = System.Drawing.SystemColors.Control;
+            this.txtCampoGenero2.Location = new System.Drawing.Point(692, 937);
+            this.txtCampoGenero2.Name = "txtCampoGenero2";
+            this.txtCampoGenero2.Size = new System.Drawing.Size(0, 31);
+            this.txtCampoGenero2.TabIndex = 14;
             // 
-            // label14
+            // txtCampoHorario2
             // 
-            this.label14.AutoSize = true;
-            this.label14.BackColor = System.Drawing.Color.Transparent;
-            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.ForeColor = System.Drawing.SystemColors.Control;
-            this.label14.Location = new System.Drawing.Point(692, 895);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(111, 31);
-            this.label14.TabIndex = 13;
-            this.label14.Text = "Horario:";
+            this.txtCampoHorario2.AutoSize = true;
+            this.txtCampoHorario2.BackColor = System.Drawing.Color.Transparent;
+            this.txtCampoHorario2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCampoHorario2.ForeColor = System.Drawing.SystemColors.Control;
+            this.txtCampoHorario2.Location = new System.Drawing.Point(692, 895);
+            this.txtCampoHorario2.Name = "txtCampoHorario2";
+            this.txtCampoHorario2.Size = new System.Drawing.Size(0, 31);
+            this.txtCampoHorario2.TabIndex = 13;
             // 
-            // label15
+            // txtCampoGenero3
             // 
-            this.label15.AutoSize = true;
-            this.label15.BackColor = System.Drawing.Color.Transparent;
-            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.ForeColor = System.Drawing.SystemColors.Control;
-            this.label15.Location = new System.Drawing.Point(1289, 937);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(112, 31);
-            this.label15.TabIndex = 16;
-            this.label15.Text = "Genero:";
+            this.txtCampoGenero3.AutoSize = true;
+            this.txtCampoGenero3.BackColor = System.Drawing.Color.Transparent;
+            this.txtCampoGenero3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCampoGenero3.ForeColor = System.Drawing.SystemColors.Control;
+            this.txtCampoGenero3.Location = new System.Drawing.Point(1289, 937);
+            this.txtCampoGenero3.Name = "txtCampoGenero3";
+            this.txtCampoGenero3.Size = new System.Drawing.Size(0, 31);
+            this.txtCampoGenero3.TabIndex = 16;
             // 
-            // label16
+            // txtCampoHorario3
             // 
-            this.label16.AutoSize = true;
-            this.label16.BackColor = System.Drawing.Color.Transparent;
-            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.ForeColor = System.Drawing.SystemColors.Control;
-            this.label16.Location = new System.Drawing.Point(1289, 895);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(111, 31);
-            this.label16.TabIndex = 15;
-            this.label16.Text = "Horario:";
+            this.txtCampoHorario3.AutoSize = true;
+            this.txtCampoHorario3.BackColor = System.Drawing.Color.Transparent;
+            this.txtCampoHorario3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCampoHorario3.ForeColor = System.Drawing.SystemColors.Control;
+            this.txtCampoHorario3.Location = new System.Drawing.Point(1289, 895);
+            this.txtCampoHorario3.Name = "txtCampoHorario3";
+            this.txtCampoHorario3.Size = new System.Drawing.Size(0, 31);
+            this.txtCampoHorario3.TabIndex = 15;
             // 
-            // label17
+            // txtCampoDuracion2
             // 
-            this.label17.AutoSize = true;
-            this.label17.BackColor = System.Drawing.Color.Transparent;
-            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.ForeColor = System.Drawing.SystemColors.Control;
-            this.label17.Location = new System.Drawing.Point(985, 851);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(131, 31);
-            this.label17.TabIndex = 17;
-            this.label17.Text = "Duración:";
+            this.txtCampoDuracion2.AutoSize = true;
+            this.txtCampoDuracion2.BackColor = System.Drawing.Color.Transparent;
+            this.txtCampoDuracion2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCampoDuracion2.ForeColor = System.Drawing.SystemColors.Control;
+            this.txtCampoDuracion2.Location = new System.Drawing.Point(1015, 937);
+            this.txtCampoDuracion2.Name = "txtCampoDuracion2";
+            this.txtCampoDuracion2.Size = new System.Drawing.Size(0, 31);
+            this.txtCampoDuracion2.TabIndex = 17;
             // 
-            // label18
+            // txtCampoDuracion3
             // 
-            this.label18.AutoSize = true;
-            this.label18.BackColor = System.Drawing.Color.Transparent;
-            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.ForeColor = System.Drawing.SystemColors.Control;
-            this.label18.Location = new System.Drawing.Point(1586, 851);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(131, 31);
-            this.label18.TabIndex = 18;
-            this.label18.Text = "Duración:";
+            this.txtCampoDuracion3.AutoSize = true;
+            this.txtCampoDuracion3.BackColor = System.Drawing.Color.Transparent;
+            this.txtCampoDuracion3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCampoDuracion3.ForeColor = System.Drawing.SystemColors.Control;
+            this.txtCampoDuracion3.Location = new System.Drawing.Point(1604, 937);
+            this.txtCampoDuracion3.Name = "txtCampoDuracion3";
+            this.txtCampoDuracion3.Size = new System.Drawing.Size(0, 31);
+            this.txtCampoDuracion3.TabIndex = 18;
             // 
-            // label19
+            // txtDuracion
             // 
-            this.label19.AutoSize = true;
-            this.label19.BackColor = System.Drawing.Color.Transparent;
-            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.ForeColor = System.Drawing.SystemColors.Control;
-            this.label19.Location = new System.Drawing.Point(480, 851);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(131, 31);
-            this.label19.TabIndex = 19;
-            this.label19.Text = "Duración:";
+            this.txtDuracion.AutoSize = true;
+            this.txtDuracion.BackColor = System.Drawing.Color.Transparent;
+            this.txtDuracion.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDuracion.ForeColor = System.Drawing.SystemColors.Control;
+            this.txtDuracion.Location = new System.Drawing.Point(501, 937);
+            this.txtDuracion.Name = "txtDuracion";
+            this.txtDuracion.Size = new System.Drawing.Size(0, 31);
+            this.txtDuracion.TabIndex = 19;
             // 
-            // label20
+            // txtHorario
             // 
-            this.label20.AutoSize = true;
-            this.label20.BackColor = System.Drawing.Color.Transparent;
-            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.ForeColor = System.Drawing.SystemColors.Control;
-            this.label20.Location = new System.Drawing.Point(194, 895);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(111, 31);
-            this.label20.TabIndex = 20;
-            this.label20.Text = "Horario:";
+            this.txtHorario.AutoSize = true;
+            this.txtHorario.BackColor = System.Drawing.Color.Transparent;
+            this.txtHorario.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtHorario.ForeColor = System.Drawing.SystemColors.Control;
+            this.txtHorario.Location = new System.Drawing.Point(194, 895);
+            this.txtHorario.Name = "txtHorario";
+            this.txtHorario.Size = new System.Drawing.Size(0, 31);
+            this.txtHorario.TabIndex = 20;
             // 
-            // label21
+            // txtGenero
             // 
-            this.label21.AutoSize = true;
-            this.label21.BackColor = System.Drawing.Color.Transparent;
-            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.ForeColor = System.Drawing.SystemColors.Control;
-            this.label21.Location = new System.Drawing.Point(194, 937);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(112, 31);
-            this.label21.TabIndex = 21;
-            this.label21.Text = "Genero:";
+            this.txtGenero.AutoSize = true;
+            this.txtGenero.BackColor = System.Drawing.Color.Transparent;
+            this.txtGenero.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtGenero.ForeColor = System.Drawing.SystemColors.Control;
+            this.txtGenero.Location = new System.Drawing.Point(194, 937);
+            this.txtGenero.Name = "txtGenero";
+            this.txtGenero.Size = new System.Drawing.Size(0, 31);
+            this.txtGenero.TabIndex = 21;
             // 
-            // label22
+            // txtDuracion2
             // 
-            this.label22.AutoSize = true;
-            this.label22.BackColor = System.Drawing.Color.Transparent;
-            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.ForeColor = System.Drawing.SystemColors.Control;
-            this.label22.Location = new System.Drawing.Point(1105, 851);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(131, 31);
-            this.label22.TabIndex = 22;
-            this.label22.Text = "Duración:";
+            this.txtDuracion2.AutoSize = true;
+            this.txtDuracion2.BackColor = System.Drawing.Color.Transparent;
+            this.txtDuracion2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDuracion2.ForeColor = System.Drawing.SystemColors.Control;
+            this.txtDuracion2.Location = new System.Drawing.Point(1140, 937);
+            this.txtDuracion2.Name = "txtDuracion2";
+            this.txtDuracion2.Size = new System.Drawing.Size(0, 31);
+            this.txtDuracion2.TabIndex = 22;
             // 
-            // label23
+            // txtHorario2
             // 
-            this.label23.AutoSize = true;
-            this.label23.BackColor = System.Drawing.Color.Transparent;
-            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.ForeColor = System.Drawing.SystemColors.Control;
-            this.label23.Location = new System.Drawing.Point(800, 895);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(111, 31);
-            this.label23.TabIndex = 23;
-            this.label23.Text = "Horario:";
+            this.txtHorario2.AutoSize = true;
+            this.txtHorario2.BackColor = System.Drawing.Color.Transparent;
+            this.txtHorario2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtHorario2.ForeColor = System.Drawing.SystemColors.Control;
+            this.txtHorario2.Location = new System.Drawing.Point(800, 895);
+            this.txtHorario2.Name = "txtHorario2";
+            this.txtHorario2.Size = new System.Drawing.Size(0, 31);
+            this.txtHorario2.TabIndex = 23;
             // 
-            // label24
+            // txtGenero2
             // 
-            this.label24.AutoSize = true;
-            this.label24.BackColor = System.Drawing.Color.Transparent;
-            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.ForeColor = System.Drawing.SystemColors.Control;
-            this.label24.Location = new System.Drawing.Point(800, 937);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(112, 31);
-            this.label24.TabIndex = 24;
-            this.label24.Text = "Genero:";
+            this.txtGenero2.AutoSize = true;
+            this.txtGenero2.BackColor = System.Drawing.Color.Transparent;
+            this.txtGenero2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtGenero2.ForeColor = System.Drawing.SystemColors.Control;
+            this.txtGenero2.Location = new System.Drawing.Point(800, 937);
+            this.txtGenero2.Name = "txtGenero2";
+            this.txtGenero2.Size = new System.Drawing.Size(0, 31);
+            this.txtGenero2.TabIndex = 24;
             // 
-            // label25
+            // txtHorario3
             // 
-            this.label25.AutoSize = true;
-            this.label25.BackColor = System.Drawing.Color.Transparent;
-            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.ForeColor = System.Drawing.SystemColors.Control;
-            this.label25.Location = new System.Drawing.Point(1392, 895);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(111, 31);
-            this.label25.TabIndex = 25;
-            this.label25.Text = "Horario:";
+            this.txtHorario3.AutoSize = true;
+            this.txtHorario3.BackColor = System.Drawing.Color.Transparent;
+            this.txtHorario3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtHorario3.ForeColor = System.Drawing.SystemColors.Control;
+            this.txtHorario3.Location = new System.Drawing.Point(1392, 895);
+            this.txtHorario3.Name = "txtHorario3";
+            this.txtHorario3.Size = new System.Drawing.Size(0, 31);
+            this.txtHorario3.TabIndex = 25;
             // 
-            // label26
+            // txtGenero3
             // 
-            this.label26.AutoSize = true;
-            this.label26.BackColor = System.Drawing.Color.Transparent;
-            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.ForeColor = System.Drawing.SystemColors.Control;
-            this.label26.Location = new System.Drawing.Point(1392, 937);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(112, 31);
-            this.label26.TabIndex = 26;
-            this.label26.Text = "Genero:";
+            this.txtGenero3.AutoSize = true;
+            this.txtGenero3.BackColor = System.Drawing.Color.Transparent;
+            this.txtGenero3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtGenero3.ForeColor = System.Drawing.SystemColors.Control;
+            this.txtGenero3.Location = new System.Drawing.Point(1392, 937);
+            this.txtGenero3.Name = "txtGenero3";
+            this.txtGenero3.Size = new System.Drawing.Size(0, 31);
+            this.txtGenero3.TabIndex = 26;
             // 
-            // label27
+            // txtDuracion3
             // 
-            this.label27.AutoSize = true;
-            this.label27.BackColor = System.Drawing.Color.Transparent;
-            this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.ForeColor = System.Drawing.SystemColors.Control;
-            this.label27.Location = new System.Drawing.Point(1707, 851);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(131, 31);
-            this.label27.TabIndex = 27;
-            this.label27.Text = "Duración:";
+            this.txtDuracion3.AutoSize = true;
+            this.txtDuracion3.BackColor = System.Drawing.Color.Transparent;
+            this.txtDuracion3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDuracion3.ForeColor = System.Drawing.SystemColors.Control;
+            this.txtDuracion3.Location = new System.Drawing.Point(1725, 937);
+            this.txtDuracion3.Name = "txtDuracion3";
+            this.txtDuracion3.Size = new System.Drawing.Size(0, 31);
+            this.txtDuracion3.TabIndex = 27;
+            this.txtDuracion3.Click += new System.EventHandler(this.txtDuracion3_Click);
             // 
             // Form1
             // 
@@ -434,43 +407,43 @@ namespace Cinegon
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Cinegon.Properties.Resources.fondocine;
             this.ClientSize = new System.Drawing.Size(1904, 1041);
-            this.Controls.Add(this.label27);
-            this.Controls.Add(this.label26);
-            this.Controls.Add(this.label25);
-            this.Controls.Add(this.label24);
-            this.Controls.Add(this.label23);
-            this.Controls.Add(this.label22);
-            this.Controls.Add(this.label21);
-            this.Controls.Add(this.label20);
-            this.Controls.Add(this.label19);
-            this.Controls.Add(this.label18);
-            this.Controls.Add(this.label17);
-            this.Controls.Add(this.label15);
-            this.Controls.Add(this.label16);
-            this.Controls.Add(this.label13);
-            this.Controls.Add(this.label14);
-            this.Controls.Add(this.label12);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.txtDuracion3);
+            this.Controls.Add(this.txtGenero3);
+            this.Controls.Add(this.txtHorario3);
+            this.Controls.Add(this.txtGenero2);
+            this.Controls.Add(this.txtHorario2);
+            this.Controls.Add(this.txtDuracion2);
+            this.Controls.Add(this.txtGenero);
+            this.Controls.Add(this.txtHorario);
+            this.Controls.Add(this.txtDuracion);
+            this.Controls.Add(this.txtCampoDuracion3);
+            this.Controls.Add(this.txtCampoDuracion2);
+            this.Controls.Add(this.txtCampoGenero3);
+            this.Controls.Add(this.txtCampoHorario3);
+            this.Controls.Add(this.txtCampoGenero2);
+            this.Controls.Add(this.txtCampoHorario2);
+            this.Controls.Add(this.txtCampoGenero);
+            this.Controls.Add(this.txtCampoDuracion);
+            this.Controls.Add(this.txtCampoHorario);
+            this.Controls.Add(this.txtIdioma3);
+            this.Controls.Add(this.txtIdioma2);
+            this.Controls.Add(this.txtIdioma);
+            this.Controls.Add(this.txtCampoIdioma3);
+            this.Controls.Add(this.txtCampoIdioma2);
+            this.Controls.Add(this.txtCampoIdioma);
+            this.Controls.Add(this.txtPelicula3);
+            this.Controls.Add(this.txtPelicula2);
+            this.Controls.Add(this.txtPelicula);
+            this.Controls.Add(this.panelBox3);
+            this.Controls.Add(this.panelBox2);
+            this.Controls.Add(this.panelBox1);
             this.MinimumSize = new System.Drawing.Size(1918, 1038);
             this.Name = "Form1";
             this.ShowIcon = false;
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.panelBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.panelBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.panelBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -478,36 +451,36 @@ namespace Cinegon
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.PictureBox panelBox1;
+        private System.Windows.Forms.PictureBox panelBox2;
+        private System.Windows.Forms.PictureBox panelBox3;
+        private System.Windows.Forms.Label txtPelicula;
+        private System.Windows.Forms.Label txtPelicula2;
+        private System.Windows.Forms.Label txtPelicula3;
+        private System.Windows.Forms.Label txtCampoIdioma;
+        private System.Windows.Forms.Label txtCampoIdioma2;
+        private System.Windows.Forms.Label txtCampoIdioma3;
+        private System.Windows.Forms.Label txtIdioma;
+        private System.Windows.Forms.Label txtIdioma2;
+        private System.Windows.Forms.Label txtIdioma3;
+        private System.Windows.Forms.Label txtCampoHorario;
+        private System.Windows.Forms.Label txtCampoDuracion;
+        private System.Windows.Forms.Label txtCampoGenero;
+        private System.Windows.Forms.Label txtCampoGenero2;
+        private System.Windows.Forms.Label txtCampoHorario2;
+        private System.Windows.Forms.Label txtCampoGenero3;
+        private System.Windows.Forms.Label txtCampoHorario3;
+        private System.Windows.Forms.Label txtCampoDuracion2;
+        private System.Windows.Forms.Label txtCampoDuracion3;
+        private System.Windows.Forms.Label txtDuracion;
+        private System.Windows.Forms.Label txtHorario;
+        private System.Windows.Forms.Label txtGenero;
+        private System.Windows.Forms.Label txtDuracion2;
+        private System.Windows.Forms.Label txtHorario2;
+        private System.Windows.Forms.Label txtGenero2;
+        private System.Windows.Forms.Label txtHorario3;
+        private System.Windows.Forms.Label txtGenero3;
+        private System.Windows.Forms.Label txtDuracion3;
     }
 }
 

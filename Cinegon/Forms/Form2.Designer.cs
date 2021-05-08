@@ -42,20 +42,21 @@ namespace Cinegon
             this.cbxIdioma = new System.Windows.Forms.ComboBox();
             this.txtDuracion = new System.Windows.Forms.TextBox();
             this.txtImagen = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.btnAgregar = new System.Windows.Forms.Button();
+            this.btnEditar = new System.Windows.Forms.Button();
+            this.btnEliminar = new System.Windows.Forms.Button();
+            this.btnSubirImagen = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.cbxPanel = new System.Windows.Forms.ComboBox();
-            this.button6 = new System.Windows.Forms.Button();
+            this.btnPantalla = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label8 = new System.Windows.Forms.Label();
             this.ShowImage = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.TablaDeDatos)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ShowImage)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // TablaDeDatos
@@ -71,6 +72,7 @@ namespace Cinegon
             this.TablaDeDatos.Size = new System.Drawing.Size(597, 237);
             this.TablaDeDatos.TabIndex = 0;
             this.TablaDeDatos.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.TablaDeDatos_CellClick);
+            this.TablaDeDatos.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.TablaDeDatos_CellContentClick);
             // 
             // label1
             // 
@@ -78,11 +80,11 @@ namespace Cinegon
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(35, 35);
+            this.label1.Location = new System.Drawing.Point(32, 35);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(52, 13);
+            this.label1.Size = new System.Drawing.Size(54, 13);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Pelicula";
+            this.label1.Text = "Película";
             // 
             // label2
             // 
@@ -193,54 +195,46 @@ namespace Cinegon
             this.txtImagen.Size = new System.Drawing.Size(100, 20);
             this.txtImagen.TabIndex = 13;
             // 
-            // button1
+            // btnAgregar
             // 
-            this.button1.Location = new System.Drawing.Point(641, 139);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(87, 23);
-            this.button1.TabIndex = 14;
-            this.button1.Text = "Agregar";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnAgregar.Location = new System.Drawing.Point(641, 139);
+            this.btnAgregar.Name = "btnAgregar";
+            this.btnAgregar.Size = new System.Drawing.Size(87, 23);
+            this.btnAgregar.TabIndex = 14;
+            this.btnAgregar.Text = "Agregar";
+            this.btnAgregar.UseVisualStyleBackColor = true;
+            this.btnAgregar.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // btnEditar
             // 
-            this.button2.Location = new System.Drawing.Point(641, 168);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(87, 23);
-            this.button2.TabIndex = 15;
-            this.button2.Text = "Editar";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btnEditar.Location = new System.Drawing.Point(641, 168);
+            this.btnEditar.Name = "btnEditar";
+            this.btnEditar.Size = new System.Drawing.Size(87, 23);
+            this.btnEditar.TabIndex = 15;
+            this.btnEditar.Text = "Editar";
+            this.btnEditar.UseVisualStyleBackColor = true;
+            this.btnEditar.Click += new System.EventHandler(this.button2_Click);
             // 
-            // button3
+            // btnEliminar
             // 
-            this.button3.Location = new System.Drawing.Point(641, 197);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(87, 23);
-            this.button3.TabIndex = 16;
-            this.button3.Text = "Eliminar";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnEliminar.Location = new System.Drawing.Point(641, 197);
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Size = new System.Drawing.Size(87, 23);
+            this.btnEliminar.TabIndex = 16;
+            this.btnEliminar.Text = "Eliminar";
+            this.btnEliminar.UseVisualStyleBackColor = true;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
-            // button4
+            // btnSubirImagen
             // 
-            this.button4.BackColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(641, 93);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(87, 23);
-            this.button4.TabIndex = 17;
-            this.button4.Text = "Subir imagen";
-            this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
-            // button5
-            // 
-            this.button5.Location = new System.Drawing.Point(641, 353);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(87, 23);
-            this.button5.TabIndex = 18;
-            this.button5.Text = "Asignar";
-            this.button5.UseVisualStyleBackColor = true;
+            this.btnSubirImagen.BackColor = System.Drawing.Color.White;
+            this.btnSubirImagen.Location = new System.Drawing.Point(641, 93);
+            this.btnSubirImagen.Name = "btnSubirImagen";
+            this.btnSubirImagen.Size = new System.Drawing.Size(87, 23);
+            this.btnSubirImagen.TabIndex = 17;
+            this.btnSubirImagen.Text = "Subir imagen";
+            this.btnSubirImagen.UseVisualStyleBackColor = false;
+            this.btnSubirImagen.Click += new System.EventHandler(this.button4_Click);
             // 
             // label7
             // 
@@ -248,7 +242,7 @@ namespace Cinegon
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(641, 298);
+            this.label7.Location = new System.Drawing.Point(641, 229);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(67, 25);
             this.label7.TabIndex = 19;
@@ -258,20 +252,23 @@ namespace Cinegon
             // 
             this.cbxPanel.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbxPanel.FormattingEnabled = true;
-            this.cbxPanel.Location = new System.Drawing.Point(641, 326);
+            this.cbxPanel.Items.AddRange(new object[] {
+            "Sin Panel"});
+            this.cbxPanel.Location = new System.Drawing.Point(641, 257);
             this.cbxPanel.Name = "cbxPanel";
             this.cbxPanel.Size = new System.Drawing.Size(87, 21);
             this.cbxPanel.TabIndex = 20;
+            this.cbxPanel.SelectedIndexChanged += new System.EventHandler(this.cbxPanel_SelectedIndexChanged);
             // 
-            // button6
+            // btnPantalla
             // 
-            this.button6.Location = new System.Drawing.Point(38, 382);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(690, 23);
-            this.button6.TabIndex = 21;
-            this.button6.Text = "Desplegar Pantalla";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
+            this.btnPantalla.Location = new System.Drawing.Point(38, 382);
+            this.btnPantalla.Name = "btnPantalla";
+            this.btnPantalla.Size = new System.Drawing.Size(690, 23);
+            this.btnPantalla.TabIndex = 21;
+            this.btnPantalla.Text = "Desplegar Pantalla";
+            this.btnPantalla.UseVisualStyleBackColor = true;
+            this.btnPantalla.Click += new System.EventHandler(this.button6_Click);
             // 
             // pictureBox1
             // 
@@ -298,7 +295,7 @@ namespace Cinegon
             // 
             // ShowImage
             // 
-            this.ShowImage.Image = global::Cinegon.Properties.Resources.fondocine;
+            this.ShowImage.BackColor = System.Drawing.Color.Transparent;
             this.ShowImage.Location = new System.Drawing.Point(749, 12);
             this.ShowImage.Name = "ShowImage";
             this.ShowImage.Size = new System.Drawing.Size(268, 393);
@@ -306,23 +303,34 @@ namespace Cinegon
             this.ShowImage.TabIndex = 24;
             this.ShowImage.TabStop = false;
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Image = global::Cinegon.Properties.Resources.cinelogo;
+            this.pictureBox2.Location = new System.Drawing.Point(641, 284);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(102, 92);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox2.TabIndex = 25;
+            this.pictureBox2.TabStop = false;
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Cinegon.Properties.Resources.fondocine;
             this.ClientSize = new System.Drawing.Size(1061, 432);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.ShowImage);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.button6);
+            this.Controls.Add(this.btnPantalla);
             this.Controls.Add(this.cbxPanel);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnSubirImagen);
+            this.Controls.Add(this.btnEliminar);
+            this.Controls.Add(this.btnEditar);
+            this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.txtImagen);
             this.Controls.Add(this.txtDuracion);
             this.Controls.Add(this.cbxIdioma);
@@ -346,6 +354,7 @@ namespace Cinegon
             ((System.ComponentModel.ISupportInitialize)(this.TablaDeDatos)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ShowImage)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -366,16 +375,16 @@ namespace Cinegon
         private System.Windows.Forms.ComboBox cbxIdioma;
         private System.Windows.Forms.TextBox txtDuracion;
         private System.Windows.Forms.TextBox txtImagen;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button btnAgregar;
+        private System.Windows.Forms.Button btnEditar;
+        private System.Windows.Forms.Button btnEliminar;
+        private System.Windows.Forms.Button btnSubirImagen;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.ComboBox cbxPanel;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button btnPantalla;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.PictureBox ShowImage;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

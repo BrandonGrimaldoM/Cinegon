@@ -63,26 +63,6 @@ namespace Cinegon.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _5262664 {
-            get {
-                object obj = ResourceManager.GetObject("5262664", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _5393301 {
-            get {
-                object obj = ResourceManager.GetObject("5393301", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap cinelogo {
             get {
                 object obj = ResourceManager.GetObject("cinelogo", resourceCulture);
@@ -96,16 +76,6 @@ namespace Cinegon.Properties {
         internal static System.Drawing.Bitmap fondocine {
             get {
                 object obj = ResourceManager.GetObject("fondocine", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap kimetsu_no_yaiba_1 {
-            get {
-                object obj = ResourceManager.GetObject("kimetsu-no-yaiba-1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
