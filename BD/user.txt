@@ -1,0 +1,4 @@
+CREATE USER cine IDENTIFIED BY clave;
+GRANT UNLIMITED TABLESPACE TO cine;
+
+GRANT create session,create table,create sequence,create procedure,create any directory,drop any directory to cine;
